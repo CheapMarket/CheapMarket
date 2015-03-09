@@ -12,9 +12,6 @@
 
 #pragma mark - Metodos da Classe
 
-- (BOOL) validaSenha : (NSString*)loginUsuario :(NSInteger*)senhaUsuario
-{
-    return NO;
-}
+
 
 @end

@@ -10,9 +10,9 @@
 
 @interface Usuario : NSObject
 
-@property (nonatomic) NSString *login;
-@property (nonatomic) NSInteger *senha;
+@property (nonatomic) NSString *username;
+@property (nonatomic) NSString *password;
 
-- (BOOL) validaSenha : (NSString*)loginUsuario : (NSInteger*)senhaUsuario;
+
 
 @end

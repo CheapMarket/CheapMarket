@@ -30,6 +30,7 @@
 		3A55678E1AADBD3B004924E5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A55678D1AADBD3B004924E5 /* SystemConfiguration.framework */; };
 		3A5567901AADBD4A004924E5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A55678F1AADBD4A004924E5 /* libz.dylib */; };
 		3A5567921AADBD58004924E5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5567911AADBD58004924E5 /* libsqlite3.dylib */; };
+		3A6534261AADDCE8007095F3 /* UsuariosController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6534251AADDCE8007095F3 /* UsuariosController.m */; };
 		9CCEEB051AADD4980018CBF0 /* Amigos.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCEEAFC1AADD4980018CBF0 /* Amigos.m */; };
 		9CCEEB061AADD4980018CBF0 /* Lista.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCEEAFE1AADD4980018CBF0 /* Lista.m */; };
 		9CCEEB071AADD4980018CBF0 /* Mercado.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCEEB001AADD4980018CBF0 /* Mercado.m */; };
@@ -77,6 +78,8 @@
 		3A55678D1AADBD3B004924E5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		3A55678F1AADBD4A004924E5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		3A5567911AADBD58004924E5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		3A6534241AADDCE8007095F3 /* UsuariosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsuariosController.h; sourceTree = "<group>"; };
+		3A6534251AADDCE8007095F3 /* UsuariosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsuariosController.m; sourceTree = "<group>"; };
 		9CCEEAFB1AADD4980018CBF0 /* Amigos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Amigos.h; sourceTree = "<group>"; };
 		9CCEEAFC1AADD4980018CBF0 /* Amigos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Amigos.m; sourceTree = "<group>"; };
 		9CCEEAFD1AADD4980018CBF0 /* Lista.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lista.h; sourceTree = "<group>"; };
@@ -215,6 +218,17 @@
 			name = frameworks;
 			sourceTree = "<group>";
 		};
+		3A6534271AADDCF0007095F3 /* Usuario */ = {
+			isa = PBXGroup;
+			children = (
+				9CCEEB031AADD4980018CBF0 /* Usuario.h */,
+				9CCEEB041AADD4980018CBF0 /* Usuario.m */,
+				3A6534241AADDCE8007095F3 /* UsuariosController.h */,
+				3A6534251AADDCE8007095F3 /* UsuariosController.m */,
+			);
+			name = Usuario;
+			sourceTree = "<group>";
+		};
 		9CCEEAFA1AADD4480018CBF0 /* Modelo */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,8 +240,7 @@
 				9CCEEB001AADD4980018CBF0 /* Mercado.m */,
 				9CCEEB011AADD4980018CBF0 /* Produto.h */,
 				9CCEEB021AADD4980018CBF0 /* Produto.m */,
-				9CCEEB031AADD4980018CBF0 /* Usuario.h */,
-				9CCEEB041AADD4980018CBF0 /* Usuario.m */,
+				3A6534271AADDCF0007095F3 /* Usuario */,
 			);
 			name = Modelo;
 			sourceTree = "<group>";
@@ -339,6 +352,7 @@
 				9CCEEB091AADD4980018CBF0 /* Usuario.m in Sources */,
 				3A55674F1AA9C3CD004924E5 /* main.m in Sources */,
 				9CCEEB051AADD4980018CBF0 /* Amigos.m in Sources */,
+				3A6534261AADDCE8007095F3 /* UsuariosController.m in Sources */,
 				9CCEEB061AADD4980018CBF0 /* Lista.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

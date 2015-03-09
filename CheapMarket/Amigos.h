@@ -15,7 +15,7 @@
 @property (nonatomic) Usuario *seguidores;
 
 -(void) adciona;
-_(void) remove;
+
 
 
 @end

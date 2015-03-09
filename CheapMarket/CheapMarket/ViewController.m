@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "UsuariosController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *txtLogin;
+@property (weak, nonatomic) IBOutlet UITextField *txtPass;
 
 @end
 
@@ -23,5 +26,30 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+- (IBAction)btnLogin:(id)sender {
+    
+    Usuario* teste = [[Usuario alloc] init];
+    teste.username = _txtLogin.text;
+    teste.password = _txtPass.text;
+    
+    [[UsuariosController singleton] signUp:teste response:^(BOOL success, NSError *error) {
+        if (success) {
+            
+            
+        } else {
+            
+            
+        }
+
+    }];
+  
+     
+     
+  
+    
+}
+
 
 @end
