@@ -30,8 +30,6 @@
 		3A55678E1AADBD3B004924E5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A55678D1AADBD3B004924E5 /* SystemConfiguration.framework */; };
 		3A5567901AADBD4A004924E5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A55678F1AADBD4A004924E5 /* libz.dylib */; };
 		3A5567921AADBD58004924E5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5567911AADBD58004924E5 /* libsqlite3.dylib */; };
-		3A5567961AADC499004924E5 /* Usuario.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5567951AADC499004924E5 /* Usuario.m */; };
-		3A5567991AADC4EA004924E5 /* UsuarioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5567981AADC4EA004924E5 /* UsuarioController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,10 +72,6 @@
 		3A55678D1AADBD3B004924E5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		3A55678F1AADBD4A004924E5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		3A5567911AADBD58004924E5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		3A5567941AADC499004924E5 /* Usuario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Usuario.h; sourceTree = "<group>"; };
-		3A5567951AADC499004924E5 /* Usuario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Usuario.m; sourceTree = "<group>"; };
-		3A5567971AADC4EA004924E5 /* UsuarioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsuarioController.h; sourceTree = "<group>"; };
-		3A5567981AADC4EA004924E5 /* UsuarioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsuarioController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,10 +111,6 @@
 		3A5567401AA9C3CD004924E5 = {
 			isa = PBXGroup;
 			children = (
-				3A5567971AADC4EA004924E5 /* UsuarioController.h */,
-				3A5567981AADC4EA004924E5 /* UsuarioController.m */,
-				3A5567941AADC499004924E5 /* Usuario.h */,
-				3A5567951AADC499004924E5 /* Usuario.m */,
 				3A5567931AADBDAA004924E5 /* frameworks */,
 				3A5567721AADBA97004924E5 /* parse-library-1 */,
 				3A55674B1AA9C3CD004924E5 /* CheapMarket */,
@@ -309,9 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A5567961AADC499004924E5 /* Usuario.m in Sources */,
 				3A5567551AA9C3CD004924E5 /* ViewController.m in Sources */,
-				3A5567991AADC4EA004924E5 /* UsuarioController.m in Sources */,
 				3A5567521AA9C3CD004924E5 /* AppDelegate.m in Sources */,
 				3A55674F1AA9C3CD004924E5 /* main.m in Sources */,
 			);
