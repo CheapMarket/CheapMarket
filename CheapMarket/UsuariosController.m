@@ -36,4 +36,9 @@
     
 }
 
+- (void)loginUser:(User *)_user response:(void (^)(bool success))response
+{
+    
+}
+
 @end

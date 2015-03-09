@@ -15,5 +15,6 @@
 + (UsuariosController *) singleton;
 
 - (void)signUp:(Usuario*)UserSignUp response:(void (^)(BOOL success, NSError *error))response;
+- (void)loginUser:(Usuario *)newUser response:(void (^)(bool success))response;
 
 @end

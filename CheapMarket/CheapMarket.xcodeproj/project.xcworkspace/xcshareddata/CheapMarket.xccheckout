@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9838C8BF-93CF-4302-B95C-26B6CD2363DC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CheapMarket</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FFBD0D1D0B258A3FA8A38EAC5B8020D98B5C9812</key>
+		<string>https://github.com/CheapMarket/CheapMarket.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CheapMarket/CheapMarket.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FFBD0D1D0B258A3FA8A38EAC5B8020D98B5C9812</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/CheapMarket/CheapMarket.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FFBD0D1D0B258A3FA8A38EAC5B8020D98B5C9812</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FFBD0D1D0B258A3FA8A38EAC5B8020D98B5C9812</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CheapMarket</string>
+		</dict>
+	</array>
+</dict>
+</plist>
