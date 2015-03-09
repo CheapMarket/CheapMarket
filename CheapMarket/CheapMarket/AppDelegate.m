@@ -2,11 +2,13 @@
 //  AppDelegate.m
 //  CheapMarket
 //
-//  Created by Conrado Werlang on 3/9/15.
-//  Copyright (c) 2015 Conrado Werlang. All rights reserved.
+//  Created by Paulo Henrique dos Santos on 06/03/15.
+//  Copyright (c) 2015 Paulo Henrique dos Santos. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
+
 
 @interface AppDelegate ()
 
@@ -17,6 +19,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [Parse enableLocalDatastore];
+    
+    // Initialize Parse.
+    [Parse setApplicationId:@"J3HwZoRY80dyVMdIs7dlLfXqf7CRuZ3BZ29pJgTZ"
+                  clientKey:@"zLg2N2OWO1kjsscQaLmWKgDrN1Vbz9MX2chQ123g"];
+    
+    // [Optional] Track statistics around application opens.
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    
     return YES;
 }
 
